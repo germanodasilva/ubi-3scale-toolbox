@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ubi3scaletoolbox:
+    image: ubi3scaletoolbox
+    build:
+      context: .
+      dockerfile: ./Dockerfile
